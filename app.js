@@ -199,13 +199,13 @@ Complete Exercise 13 in the space below:
 */
 
 const numArrays = [
-  [100, 5, 23], //128
-  [15, 21, 72, 9], //117
-  [45, 66], // 111
-  [7, 81, 90], //178
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90],
 ];
 
-const numList = [...numArrays.at(-1)];
+const numList = numArrays.at(-1);
 console.log("Exercise 13 result:", numList);
 
 /*
@@ -236,7 +236,7 @@ Complete Exercise 15 in the space below:
 */
 
 let total = 0;
-for (array of numArrays) {
+for (let array of numArrays) {
   array.forEach((num) => {
     total += num;
   });
